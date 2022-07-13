@@ -1,10 +1,15 @@
 {
-  "contacts": [
-    {
-      "id": "ab4402c3-a9b3-4ec5-a45e-ab7fa800a19a",
-      "name": "qweqwe",
-      "email": "qweqwe@gm"
-    }
-  ]
- 
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
+
